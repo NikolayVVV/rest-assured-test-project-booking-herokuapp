@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Booking Test Suite">
+    <test name="Smoke Get Tests">
+        <classes>
+            <class name="testCases.GetSmokeTests">
+                <methods>
+                    <include name="smokeTestGetRequests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
